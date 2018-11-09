@@ -15,7 +15,6 @@ class StringAlgo extends Component {
   componentDidMount() {
     const chars = this.trimStr.split('');
     const reverseChars = chars.reverse();
-    console.log(this.mostRepeated(this.trimStr));
     this.setState({
       firstRepeat: this.repeatingCharacter(this.trimStr, true),
       lastRepeat: this.repeatingCharacter(reverseChars.toString(), true),

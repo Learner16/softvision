@@ -10,7 +10,6 @@ class Fibonacci extends Component {
 
   generateSeries = () => {
     const { nNumber } = this.state;
-    console.log(nNumber);
     if(nNumber>0)
     { 
       this.setState({
